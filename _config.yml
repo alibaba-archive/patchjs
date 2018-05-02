@@ -1,1 +1,4 @@
 theme: jekyll-theme-hacker
+title: Patch.js
+description: Patch.js is a incremental (character level) script loader for mobile web.
+show_downloads: true
