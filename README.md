@@ -49,24 +49,14 @@ location /static/ {
 ## Webpack Configure
 
 ```js
-var path = require('path');
 var PatchjsWebpackPlugin = require('patchjs-webpack-plugin');
 
 module.exports = {
-  entry: {
-    index: './index.js'
-  },
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name].js'
-  },
-  module: {
-    loaders: [
-      { test: /\.css$/, loader: 'style-loader!css-loader' }
-    ]
-  },
   plugins: [
-    new PatchjsWebpackPlugin({increment: true})
+    new PatchjsWebpackPlugin({
+      increment: true,
+      path: 'http://static.domain.com/path/to/'
+    })
   ]
 };
 ```
