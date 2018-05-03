@@ -1,3 +1,14 @@
+## Key Future
+
+* simple and easy to use API, like Labjs.
+
+* support localStorage / Web SQL Database.
+
+* real time diff compute through nginx.
+
+* build diff compute through webpack.
+
+
 ## Loader
 
 ### Reference
@@ -20,22 +31,22 @@ patchjs.config({
 });
 ```
 
+[More](https://github.com/patchjs/patchjs-loader)
+
+
 ## Nginx Configure
 
 ```bash
-location /static/css/ {
-    patchjs on;
-    patchjs_max_file_size 1024;
-}
-    
-location /static/js/ {
+location /static/ {
     patchjs on;
     patchjs_max_file_size 1024;
 }
 ```
 
+[More](https://github.com/patchjs/patchjs-nginx-module)
 
-## Webpack Plugin
+
+## Webpack Configure
 
 ```js
 var path = require('path');
@@ -59,3 +70,13 @@ module.exports = {
   ]
 };
 ```
+
+[More](https://github.com/patchjs/patchjs-webpack-plugin)
+
+## Support & Contact
+
+* email: yulong.heli@gmail.com
+
+* issue: https://github.com/patchjs/patchjs-loader/issues
+
+
