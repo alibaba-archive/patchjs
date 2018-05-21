@@ -2,7 +2,7 @@
 
 https://patchjs.github.io/
 
-## View on Github
+## Our new GitHub repo
 
 https://github.com/patchjs
 
