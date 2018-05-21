@@ -1,3 +1,11 @@
+## Site
+
+https://patchjs.github.io/
+
+## View on Github
+
+https://github.com/patchjs
+
 ## Key Future
 
 * simple and easy to use API, like Labjs.
@@ -63,10 +71,5 @@ module.exports = {
 
 [More](https://github.com/patchjs/patchjs-webpack-plugin)
 
-## Support & Contact
-
-* email: yulong.heli@gmail.com
-
-* issue: https://github.com/patchjs/patchjs-loader/issues
 
 
