@@ -1,4 +1,4 @@
-## Site
+## Website
 
 https://patchjs.github.io/
 
