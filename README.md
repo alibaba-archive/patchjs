@@ -71,5 +71,6 @@ module.exports = {
 
 [More](https://github.com/patchjs/patchjs-webpack-plugin)
 
+## License
 
-
+Patch.js is MIT licensed.
