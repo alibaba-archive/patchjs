@@ -10,7 +10,7 @@ https://github.com/patchjs
 
 * simple and easy to use API, like Labjs.
 
-* support localStorage / Web SQL Database.
+* support localStorage / Web SQL Database / IndexedDB.
 
 * real time diff compute through nginx.
 
