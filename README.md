@@ -41,6 +41,21 @@ patchjs.config({
 
 [More](https://github.com/patchjs/patchjs-loader)
 
+### Service Worker
+
+```js
+importScripts('./sw-core.js');
+
+sw.config({
+  cacheId: 'cachedb',
+  precache: [
+    './images/test.png',
+    'https://gw.alipayobjects.com/zos/rmsportal/CtJlgAZbmyeSCLxqsgqF.png'
+  ],
+}).run();
+```
+
+[More](https://github.com/patchjs/patchjs-sw)
 
 ## Nginx Configure
 
